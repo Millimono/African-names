@@ -70,3 +70,54 @@
 .close-button:hover {
   background: darkred;
 }
+
+
+
+/* 📱 Adapter la carte pour mobile */
+.prenom-card {
+  width: 100%;
+  max-width: 350px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* Ajuster la police et les espacements sur mobile */
+.prenom-card h2 {
+  font-size: 20px;
+}
+
+.prenom-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Adapter le cœur ❤️ pour mobile */
+.heart {
+  font-size: 22px;
+}
+
+/* 📱 Adapter la fenêtre modale sur petits écrans */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%; /* Prend 90% de la largeur de l'écran */
+    max-width: 350px;
+    padding: 15px;
+  }
+
+  .modal-overlay {
+    padding: 20px;
+  }
+
+  .details-button {
+    width: 100%; /* Prend toute la largeur en mobile */
+    padding: 10px;
+  }
+
+  .close-button {
+    width: 100%;
+  }
+}
