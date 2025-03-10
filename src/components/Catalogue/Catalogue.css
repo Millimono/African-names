@@ -41,3 +41,28 @@
   background: #ffeeba;
   border-radius: 8px;
 }
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .prenom-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .prenom-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .search-box {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .favoris {
+    padding: 8px;
+  }
+}
