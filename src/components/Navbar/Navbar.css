@@ -31,4 +31,40 @@
   .nav-links a:hover {
     text-decoration: underline;
   }
+  .burger-menu {
+    display: none; /* Caché sur grand écran */
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* 📱 Cacher le menu sur mobile */
+  @media (max-width: 768px) {
+    .burger-menu {
+      display: block; /* Afficher le bouton menu */
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: #007bff;
+      padding: 15px;
+      border-radius: 8px;
+    }
+  
+    .nav-links.open {
+      display: flex; /* Afficher le menu quand isOpen = true */
+    }
+  }
   
