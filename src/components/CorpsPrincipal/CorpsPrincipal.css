@@ -1,0 +1,68 @@
+.corps-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Présentation */
+.presentation {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Section Thématiques */
+.themes {
+  margin: 20px 0;
+}
+
+.theme-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.theme-checkbox-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.theme-checkbox-label input {
+  margin-right: 8px;
+}
+
+/* Section Vedette */
+.vedette {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vedette h2 {
+  margin-bottom: 10px;
+}
+
+.vedette-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.vedette-list span {
+  background: #ffcc00;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.vedette-list p {
+  font-size: 18px;
+  color: #888;
+}
